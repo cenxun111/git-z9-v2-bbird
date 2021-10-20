@@ -1,0 +1,16 @@
+.con{
+    margin-left: 200px;
+    /* transition: width .3s ease-in */
+  }
+.con.inv{
+   margin-left:60px
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .con.inv{
+      margin-left:0px;
+    }
+    .con{
+      margin-left:0px;
+    }
+  }
